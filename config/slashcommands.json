@@ -30,5 +30,9 @@
   {
     "name": "w3api",
     "description": "Interfaces with an API to return information about The Witcher 3"
+  },
+  {
+    "name": "quote",
+    "description": "Returns a character from one of the characters in the Witcher universe"
   }
 ]

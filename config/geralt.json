@@ -24,5 +24,35 @@
     "https://c.tenor.com/byucHnGIMLgAAAAM/henry-cavill-geralt-of-rivia.gif",
     "https://c.tenor.com/Yc4tYbxFNS0AAAAM/henry-cavill-geralt-of-rivia.gif",
     "https://c.tenor.com/UdnwzcGC7RwAAAAM/henry-cavill-geralt-of-rivia.gif"
+  ],
+  "quotes": [
+     {
+       "quote": "This world doesn't need a hero. It needs a professional.",
+       "spokenBy": "Geralt of Rivia"
+     },
+     {
+       "quote": "People...Like To Invent Monsters And Monstrosities. Then They Seem Less Monstrous Themselves...They Feel Better Then. They Find It Easier To Live.",
+       "spokenBy": "Geralt of Rivia"
+     },
+     {
+       "quote": "Evil Is Evil. Lesser, Greater, Middling... Makes No Difference. The Degree Is Arbitrary. The Definition's Blurred. If I'm To Choose Between One Evil And Another... I'd Rather Not Choose At All.",
+       "spokenBy": "Geralt of Rivia"
+     },
+     {
+       "quote": "I manage because I have to. Because I've no other way out. Because I've overcome the vanity and pride of being different, I've understood that they are a pitiful defense against being different. Because I've understood that the sun shines differently when something changes. The sun shines differently, but it will continue to shine, and jumping at it with a hoe isn't going to do anything.",
+       "spokenBy": "Geralt of Rivia"
+     },
+     {
+       "quote": "You’ve mistaken the stars reflected on the surface of the lake at night for the heavens.",
+       "spokenBy": "Vilgefortz of Roggeveen"
+     },
+     {
+       "quote": "Caed'mil, Bloede Dh'oine... Hocus-Pocus... Abracadabra... Arse Blathanna...",
+       "spokenBy": "Geralt of Rivia"
+     },
+     {
+       "quote":  "This Is My Story Not Yours. You Must Let Me Finish Telling It.",
+       "spokenBy": "Cirilla Fiona Elen Riannon"
+     }
   ]
 }

@@ -17,6 +17,7 @@ const geralt = require('./config/geralt.json');
 const combatArray = geralt.combat;
 const hmmArray = geralt.hmm;
 const fuckArray = geralt.fuck;
+const quoteArray = geralt.quotes;
 
 client.on('ready', async () => {
   mongoose.connect(process.env.MONGODB_URI, { useUnifiedTopology: true, useNewUrlParser: true })
@@ -73,6 +74,9 @@ client.on('interactionCreate', async interaction => {
         break;
       case 'w3api':
         w3api(interaction);
+        break;
+      case 'quote':
+        quote(interaction);
         break;
     }
   } else if (interaction.isButton()) {
@@ -208,6 +212,14 @@ async function w3creatures(interaction) {
 
     paginator(interaction.user, interaction, embeds);
   })
+}
+
+async function quote(interaction) {
+  const randomQuote = quoteArray[Math.floor(Math.random()*quoteArray.length)];
+  const quoteEmbed = new Discord.MessageEmbed()
+  .setDescription(`> *${randomQuote.quote}*\n\n**― ${randomQuote.spokenBy}**`);
+
+  interaction.reply({ embeds: [quoteEmbed] });
 }
 
 async function paginator(user, interaction, embeds) {
