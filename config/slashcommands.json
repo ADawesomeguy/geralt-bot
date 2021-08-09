@@ -1,0 +1,34 @@
+[
+  {
+    "name": "combat",
+    "description": "Returns one of Geralt's combat taunts"
+  },
+  {
+    "name": "hmm",
+    "description": "Returns a GIF of one of Geralt's famous \"hmm\"s"
+  },
+  {
+    "name": "fuck",
+    "description": "Returns a GIF of one of Geralt's famous \"fuck\"s"
+  },
+  {
+    "name": "verify",
+    "description": "Command for verification"
+  },
+  {
+    "name": "verificationrole",
+    "description": "Moderator-only command that defines a role to be assigned to verified members",
+    "options": [
+      {
+        "type": "ROLE",
+        "name": "role",
+        "description": "The role that verified users are given",
+        "required": true
+      }
+    ]
+  },
+  {
+    "name": "w3api",
+    "description": "Interfaces with an API to return information about The Witcher 3"
+  }
+]
