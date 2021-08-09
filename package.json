@@ -4,6 +4,7 @@
     "discord.js": "^13.0.1",
     "dotenv": "^10.0.0",
     "mongoose": "^5.13.5",
+    "nodemon": "^2.0.12",
     "trek-captcha": "^0.4.0"
   }
 }
