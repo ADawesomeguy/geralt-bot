@@ -57,8 +57,10 @@ client.on("guildCreate", async guild => {
 
 client.on('messageCreate', async message => {
   if (message.content.toLowerCase() == "g.info" && message.author.id === config.creator.id) {
+    const currentTime = new Date();
+    const timeStarted = currentTime - client.uptime;
     const infoEmbed = new Discord.MessageEmbed()
-    .setDescription(`🖥️ Servers: ${client.guilds.cache.size}\n⏸️ Uptime: ${client.uptime}`);
+    .setDescription(`🖥️ Servers: ${client.guilds.cache.size}\n⏸️ Started: <t:${Math.round(timeStarted/1000)}:R>`);
     message.reply({ embeds: [infoEmbed] })
   }
 })
