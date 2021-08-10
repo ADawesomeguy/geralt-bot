@@ -13,6 +13,7 @@ const dbGuild = require('./models/guild.js');
 
 const slashcommandsjson = require('./config/slashcommands.json');
 const geralt = require('./config/geralt.json');
+const config = require('./config/config.json');
 
 const combatArray = geralt.combat;
 const hmmArray = geralt.hmm;
@@ -53,6 +54,14 @@ client.on("guildCreate", async guild => {
     await newGuild.save();
   }
 });
+
+client.on('messageCreate', async message => {
+  if (message.content.toLowerCase() == "g.info" && message.author.id === config.creator.id) {
+    const infoEmbed = new Discord.MessageEmbed()
+    .setDescription(`🖥️ Servers: ${client.guilds.cache.size}\n⏸️ Uptime: ${client.uptime}`);
+    message.reply({ embeds: [infoEmbed] })
+  }
+})
 
 client.on('interactionCreate', async interaction => {
   if (interaction.isCommand()) {
