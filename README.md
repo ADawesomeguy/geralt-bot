@@ -10,7 +10,7 @@ A simple, open-source Discord bot that has commands reflecting the Witcher unive
 ![](https://raw.githubusercontent.com/ADawesomeguy/geralt-bot/master/static/geraltbot-hmm.gif)
 
 - `/verificationrole` is a moderator-only command that defines a role for people verifying to obtain and `/verify` is used by members to be verified  
-![](.https://raw.githubusercontent.com/ADawesomeguy/geralt-bot/master/static/geraltbot-verification.gif)
+![](https://raw.githubusercontent.com/ADawesomeguy/geralt-bot/master/static/geraltbot-verification.gif)
 
 - `/w3api` is a command that returns information about different characters, creatures, and quests using [The Witcher 3 API](http://witcher3api.com/). (Currently only characters and creatures supported, queries and quests coming soon)    
 ![](https://raw.githubusercontent.com/ADawesomeguy/geralt-bot/master/static/geraltbot-w3api.gif)
